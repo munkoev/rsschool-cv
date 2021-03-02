@@ -1,0 +1,54 @@
+body {
+  background-color: antiquewhite;
+  margin: 0;
+  padding: 10px;
+}
+
+.content {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.content aside {
+  max-width: 300px;
+  background-color: steelblue;
+  color: white;
+}
+
+.content aside figure {
+  width: 300px;
+  margin: 0;
+  display: block;
+}
+
+.content aside figure img {
+  width: 300px;
+  margin: 0;
+  display: block;
+}
+
+.side-section { display: block; }
+
+.side-section-p { padding: 0 45px; }
+
+article {
+  width: 600px;
+  background-color: aliceblue;
+}
+
+.article-header { padding-left: 45px; }
+
+.article-section {
+  padding-left: 45px;
+  display: block;
+}
+
+.article-p {
+  padding: 0 45px;
+  display: block;
+}
+
+h1 { padding: 0 30px; }
+
+h3 { padding: 0 30px; }
